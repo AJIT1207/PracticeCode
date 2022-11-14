@@ -6,6 +6,7 @@ public class Maze {
     public static void main(String[] args) {
 
         //this is after adding new comment line
+
         //new line had added
       //  path("", 3, 3);  //printing the total path
       //  System.out.println(pathList("", 3,3)); //total path in list
