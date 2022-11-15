@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 public class AnagramChecl {
     public static void main(String[] args) {
-        String a = "abc";
-        String b = "cde";
+        String a = "cderf";
+        String b = "ef";
         System.out.println(numberNeeded(a, b));
     }
 
