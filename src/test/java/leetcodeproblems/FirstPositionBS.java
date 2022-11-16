@@ -1,6 +1,8 @@
 package leetcodeproblems;
 
-public class FirstPositionBS {
+public class
+
+FirstPositionBS {
     public static void main(String[] args) {
         int arr[] = {0,0,0,0,1,1,1,1};
         int target = 1;
