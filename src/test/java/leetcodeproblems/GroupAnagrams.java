@@ -17,9 +17,8 @@ public class GroupAnagrams {
     {
         HashMap<String, List<String>> map = new HashMap<>();
 
-        for(int i  = 0 ; i < strs.length ; i++ )
+        for(String s1 : strs)
         {
-        String s1  = strs[i];
         char arr[] = s1.toCharArray();
 
         Arrays.sort(arr);

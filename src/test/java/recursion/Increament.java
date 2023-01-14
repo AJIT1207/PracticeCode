@@ -12,20 +12,5 @@ public class Increament {
 
         System.out.println(String.valueOf(ch));
 
-        //        String s = "ajit 1 jaiswal 2";
-//        String arr[] = s.split(" ");
-//        for(String data : arr) {
-//            int x = Integer.parseInt(data);
-//            System.out.println(x);
-//        }
-//        StringBuilder digit = new StringBuilder();
-//        for(Character c : s.toCharArray())
-//        {
-//            if(Character.isDigit(c))
-//            {
-//                digit.append(c);
-//            }
-//        }
-//        System.out.println(digit);
     }
 }

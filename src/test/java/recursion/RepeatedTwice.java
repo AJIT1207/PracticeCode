@@ -1,10 +1,10 @@
 package recursion;
 
 import java.util.HashSet;
-
+//output showing wrong
 public class RepeatedTwice {
     public static void main(String[] args) {
-        String s = "abccbaacz";
+        String s = "abcdad";
         System.out.println(repeatedCharacter(s));
     }
     public static char repeatedCharacter(String s) {

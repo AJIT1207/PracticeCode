@@ -14,7 +14,10 @@ public class Palindrome {
                     start++;
                     end--;
                 }
-                else return false;
+                else
+                {
+                    return false;
+                }
             }
         return true;
         }

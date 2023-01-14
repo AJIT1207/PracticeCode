@@ -2,7 +2,7 @@ package hackerrank;
 
 public class Anagramcheck {
     public static void main(String[] args) {
-        String str = "abcba";
+        String str = "abc";
 
         int first = 0;
         int end = str.length()-1;

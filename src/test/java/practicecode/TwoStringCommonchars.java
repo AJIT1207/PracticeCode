@@ -7,7 +7,7 @@ public class TwoStringCommonchars {
     public static void main(String[] args) {
 
             String s1 = "hello";
-            String s2 = "htc";
+            String s2 = "jk";
             System.out.println(commonchar(s1, s2));
         }
     private static String commonchar(String s1, String s2) {

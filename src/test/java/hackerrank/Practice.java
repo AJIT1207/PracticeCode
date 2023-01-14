@@ -1,35 +1,37 @@
 package hackerrank;
 
-public class Practice {
+import java.util.Arrays;
+
+class Sorting012 {
     public static void main(String[] args) {
-        int arr[] = {3,2,1};
+        int arr[] = {1, 0, 2, 1, 2,0};
 
-        Integer max1 = null;
-        Integer max2 = null;
-        Integer max3 = null;
+        int low = 0, mid = 0, high = arr.length-1;
 
-        for (Integer n : arr)
+
+        while (mid <= high)
         {
-            if(n.equals(max1) || n.equals(max2) || n.equals(max3))
-                continue;
-            if (max1 == null || n > max1)
+            if (arr[mid] == 0)
             {
-                max3 = max2;
-                max2 = max1;
-                max1 = n;
+                int temp = arr[mid];
+                arr[mid] = arr[low];
+                arr[low] = temp;
+                low++;
+                mid++;
             }
-            else if (max2 == null || n > max2)
+            else if (arr[mid] == 1)
             {
-                max3 = max2;
-                max2 = n;
+                mid++;
             }
-
-            else if (max3 == null || n > max3)
+            else
             {
-                max3 = n;
+                int temp = arr[mid];
+                arr[mid] = arr[high];
+                arr[high] = temp;
+                high--;
             }
         }
 
-        System.out.println(max3 == null ? max1 : max3);
+        System.out.println(Arrays.toString(arr));
     }
 }

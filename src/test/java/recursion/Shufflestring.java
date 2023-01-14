@@ -5,9 +5,10 @@ import java.util.Locale;
 public class Shufflestring {
     public static void main(String[] args) {
         int indices[] =  {4,5,6,7,0,1,2,3};
-        System.out.println(restoreString("codeleet", indices));
+        String word = "codeleet";
+        System.out.println(restoreString(word, indices));
 
-        String word = "AJIT";
+
         char ch[] = word.toLowerCase().toCharArray();
     }
 

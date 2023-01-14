@@ -2,7 +2,7 @@ package leetcodeproblems;
 
 public class PivotFind {
     public static void main(String[] args) {
-        int arr[] = {4,5,6,7,0,1,2};
+        int arr[] = {4,5,6,0,1,2};
         int pivot  = findpivot(arr);
         System.out.println(pivot);
     }

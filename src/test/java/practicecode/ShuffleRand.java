@@ -7,7 +7,7 @@ public class ShuffleRand {
     // A Function to generate a random permutation of arr[]
     static void randomize( int arr[], int n)
     {
-        // Creating a object for Random class
+        // Creating an object for Random class
         Random r = new Random();
 
         // Start from the last element and swap one by one. We don't

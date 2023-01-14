@@ -23,7 +23,7 @@ FirstPositionBS {
             {
                 result = mid;
 
-                start = mid + 1;
+                end = mid - 1;
             }
             else if(arr[mid] < target)
             {

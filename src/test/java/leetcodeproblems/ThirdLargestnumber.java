@@ -1,6 +1,6 @@
 package leetcodeproblems;
 
-public class Array1 {
+public class ThirdLargestnumber {
     public static void main(String[] args) {
         int nums[] = {3,2,1};
         System.out.println(thirdMax(nums));

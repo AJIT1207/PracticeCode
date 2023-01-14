@@ -2,10 +2,10 @@ package practicecode;
 
 import java.util.*;
 
-public class Anagramcheck {
+public class LongestSubstringlength {
     public static void main(String[] args) {
 
-        String s = "abcabcbb";
+        String s = "abceba";
 
         System.out.println(longest(s));
 
@@ -25,7 +25,7 @@ public class Anagramcheck {
             }
             else
             {
-                set.remove(s.charAt(j));
+                set.remove(s.charAt(i++));
             }
         }
 

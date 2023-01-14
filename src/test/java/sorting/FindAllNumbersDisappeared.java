@@ -27,7 +27,7 @@ public class FindAllNumbersDisappeared {
         }
 
     List<Integer> ans = new ArrayList<Integer>();
-    for (int index = 0 ; index < arr.length ; i++)
+    for (int index = 0 ; index < arr.length ; index++)
     {
         if(arr[index] != index + 1)
         {
