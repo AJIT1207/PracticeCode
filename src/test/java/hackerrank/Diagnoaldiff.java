@@ -8,7 +8,7 @@ public class Diagnoaldiff {
         for(int i = 0 ; i < arr.length; i++)
         {
              left_sum +=  arr[i][i];
-            right_sum += arr[i][arr.length-i-1];
+             right_sum += arr[i][arr.length-i-1];
 
         }
 

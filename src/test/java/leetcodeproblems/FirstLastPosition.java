@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class FirstLastPosition {
     public static void main(String[] args) {
-        int arr[]  = {0,0,0,0,1,1,1,1};
-        int target = 1;
+        int arr[]  = {2,3,4,5,4,3};
+        int target = 3;
         System.out.println(Arrays.toString(searchRange(arr, target)));
     }
     static int[] searchRange(int arr[], int target)

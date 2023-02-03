@@ -2,7 +2,7 @@ package practicecode;
 
 public class MinnumberOfstepstoMakePalindrome {
     public static void main(String[] args) {
-        String s = "teap";
+        String s = "tezp";
         String t = "seat";
 
         System.out.println(palindrome(s,t));

@@ -2,10 +2,18 @@ package hackerrrankproblems;
 
 import java.util.Arrays;
 
-public class Commonchars {
+public class
+
+
+
+
+
+
+
+Commonchars {
     public static void main(String[] args) {
-        String s1 = "ajitss";
-        String s2 = "jiswal";
+        String s1 = "ajit";
+        String s2 = "jaiswal";
 
 
         int freq1[] = new int[26];
@@ -31,19 +39,19 @@ public class Commonchars {
         for (int i = 0 ; i < 26; i++)
         {
 
-            if ((freq1[i] ^ freq2[i]) != 0)
-            {
-                str = str + (char)(i + 'a');
-            }
-
-
-//            if(freq1[i] != 0 && freq2[i] != 0)
+//            if ((freq1[i] ^ freq2[i]) != 0)
 //            {
-//                for (int j = 0 ; j < Math.min(freq1[i],freq2[i]); j++)
-//                {
-//                    System.out.println((char)(i+'a'));
-//                }
+//                str = str + (char)(i + 'a');
 //            }
+
+
+            if(freq1[i] != 0 && freq2[i] != 0)
+            {
+                for (int j = 0 ; j < Math.min(freq1[i],freq2[i]); j++)
+                {
+                    System.out.println((char)(i+'a'));
+                }
+            }
         }
 
         System.out.println(str);

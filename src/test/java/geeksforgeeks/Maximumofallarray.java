@@ -16,6 +16,7 @@ public class Maximumofallarray {
         int max = 0;
         for(int i = 0 ; i <= n-k; i++)
         {
+
             int temp = i;
             int j = i;
             while(temp < k+j)

@@ -15,16 +15,24 @@ public class Main {
     public static void main(String args[])
     {
         try {
-
+         //   int k = 25/0;
             // Throw an object of user defined exception
-            throw new MyException("GeeksGeeks");
+            throw new MyException("second");
         }
+//
+//        catch (ArithmeticException e)
+//        {
+//            System.out.println(e.getMessage());
+//        }
 
         catch (MyException ex) {
-            System.out.println("Caught");
+            System.out.println("first");
 
             // Print the message from MyException object
             System.out.println(ex.getMessage());
+        }
+        finally {
+            System.out.println("definelty will be executed");
         }
     }
 }
